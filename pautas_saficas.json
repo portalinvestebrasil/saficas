@@ -1,1 +1,48 @@
-
+{
+  "config": {
+    "handle": "@amor.entre.elas",
+    "nicho": "frases romanticas saficas - duas mulheres",
+    "registro": "intimo, afetuoso, escrito de dentro da experiencia (nunca pronome hetero trocado)",
+    "regras_voz": [
+      "Especificidade vivida, nao bandeira: o batom dela na sua caneca, dividir o espelho, a roupa dela que virou sua",
+      "Reciprocidade entre iguais - nada de papeis hetero (princesa/protetor)",
+      "O apesar de tudo implicito: te escolho mesmo num mundo que complica - terno, vitorioso, nunca discurso",
+      "Sensorial e domestico, nao abstrato"
+    ],
+    "proibido": [
+      "Male gaze ou foco em corpo/curva/pose",
+      "Conteudo sexual ou sugestivo (intimo SIM, erotico NAO)",
+      "Panfleto/ativismo explicito",
+      "Copiar frase literal de outra conta"
+    ],
+    "regras_legenda": {
+      "estrutura": [
+        "emoji + frase-gancho",
+        "paragrafo emocional",
+        "uma linha profunda entre aspas",
+        "paragrafo de acolhimento",
+        "CTA marcar: Marque quem te faz sentir isso",
+        "CTA enviar: Envie pra ela agora",
+        "CTA salvar: Salve pra reler depois"
+      ],
+      "hashtags": "5 a 8, mix de amplas e nicho"
+    },
+    "limites": {
+      "frase_max_linhas": 6,
+      "frase_chars_por_linha": 38,
+      "regra": "se nao couber, encurte - nunca reduza a fonte"
+    },
+    "rotacao": {
+      "modo_por_horario": "dia = manha/tarde; noite = depois das 19h",
+      "sem_repeticao_consecutiva": true,
+      "cota_teste_novas": "pautas novas ganham ~15% das postagens"
+    }
+  },
+  "pautas": [
+    {"id":"P01","nome":"bom dia declaracao","tema":"afirmacao matinal a parceira","gancho_emocional":"voce e meu primeiro pensamento; transforma a manha comum em especial","modos":["dia"],"evidencia_views":["5.8M","5.7M","92k"],"peso":5,"superficie_sugerida":"caderno","fundo_sugerido":"campo golden hour / quarto manha","frase_norte":"Bom dia, meu amor. Acordei antes do despertador so pra te ver dormindo mais um pouco."},
+    {"id":"P02","nome":"caos vira paz","tema":"o mundo e caos, ela e o refugio","gancho_emocional":"la fora tudo grita; do seu lado o barulho vira silencio","modos":["dia","noite"],"evidencia_views":["5.8M","2.2M","2M"],"peso":5,"superficie_sugerida":"caderno","fundo_sugerido":"interior aconchegante","frase_norte":"O mundo la fora nao para de gritar. Ai voce me abraca por tras na cozinha e o barulho vira silencio."},
+    {"id":"P03","nome":"a escolha","tema":"amar como decisao diaria","gancho_emocional":"nao foi acaso; todo dia eu escolho voce de olho aberto","modos":["dia"],"evidencia_views":["3.3M","1.9M"],"peso":4,"superficie_sugerida":"caderno","fundo_sugerido":"campo ao entardecer","frase_norte":"Nao foi acaso. Todo dia eu acordo e escolho voce de novo, de olho aberto."},
+    {"id":"P04","nome":"notificacao preferida","tema":"ela vence qualquer tela","gancho_emocional":"nenhuma notificacao compete com voce entrando pela porta","modos":["dia"],"evidencia_views":["5.7M"],"peso":5,"superficie_sugerida":"caderno","fundo_sugerido":"sofa luz quente","frase_norte":"Voce nao e a minha notificacao preferida. Voce e o motivo de eu largar o celular."},
+    {"id":"P05","nome":"boa noite protecao","tema":"ternura pra ela dormir","gancho_emocional":"encosta em mim e deixa o dia ir; eu fico te ouvindo respirar","modos":["noite"],"evidencia_views":["2M","99k"],"peso":4,"superficie_sugerida":"papel + silhueta do casal","fundo_sugerido":"cena escura, luar","frase_norte":"Boa noite. Nao precisa dizer nada. Encosta as costas em mim e deixa o dia ir embora."},
+    {"id":"P06","nome":"saudade e espera","tema":"a ausencia que esvazia a casa","gancho_emocional":"sem voce a casa e so parede esperando voce voltar","modos":["dia","noite"],"evidencia_views":["80.9k","60.9k"],"peso":3,"superficie_sugerida":"kraft","fundo_sugerido":"interior vazio","frase_norte":"Faz dois dias e a casa ja entendeu: sem voce, ela e so parede esperando voce voltar."},
+    {"id":"P07","nome":"lista de pequenas coisas","tema":"inventario do que ama nela","gancho_emocional":"as pequenas coisas: o cabelo de manha, a mao achando a minha no escuro","modos":["dia"],"evidencia_views":["1.9M"],"peso":4,"superficie_sugerida":"caderno","fundo_sugerido":"cafe
